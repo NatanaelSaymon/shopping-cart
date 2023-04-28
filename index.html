@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+</head>
+<body>
+    <header>
+        <h1>Vendor</h1>
+    </header>
+    <main>
+        <div class="page-title">Seu carrinho</div>
+        <div class="content">
+            <section>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Produtc</th>
+                            <th>Price</th>
+                            <th>Quantity</th>
+                            <th>Total</th>
+                            <th>-</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <div class="product">
+                                    <div class="product-img">
+                                        <img src="https://placehold.co/100x150" alt="">
+                                    </div>
+                                    <div class="product-info">
+                                        <p class="product-info__name">Nome do produto</p>
+                                        <p class="product-info__category">categoria</p>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>$120</td>
+                            <td></td>
+                            <td>
+                                <div class="qty">
+                                    <button>-</button>
+                                    <span>1</span>
+                                    <button>+</button>
+                                </div>
+                            </td>
+                            <td>
+                                <button class="remove-btn">
+                                    <i class="ph-light ph-x"></i>
+                                </button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+            <aside>
+                Resumo das compras
+
+                https://www.youtube.com/watch?v=8VjsyeMo9-A&t=26s
+            </aside>
+        </div>
+    </main>
+</body>
+</html>
